@@ -1,4 +1,5 @@
 Copyright (c) Enlightn Software, Paras Malhotra
+Updates from main project - Copyright (c) Tristan Szucs
 
 ### GNU LESSER GENERAL PUBLIC LICENSE
 
