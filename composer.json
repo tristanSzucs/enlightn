@@ -1,6 +1,6 @@
 {
-    "name": "enlightn/enlightn",
-    "description": "Enlightn - Your performance & security consultant, an artisan command away.",
+    "name": "tristanszucs/enlightn",
+    "description": "A fork of Enlightn",
     "type": "library",
     "keywords": [
         "laravel",
@@ -14,26 +14,7 @@
         "audit",
         "analysis tool"
     ],
-    "homepage": "https://www.laravel-enlightn.com/",
     "license": "LGPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "Paras Malhotra",
-            "email": "paras@laravel-enlightn.com"
-        },
-        {
-            "name": "Miguel Piedrafita",
-            "email": "soy@miguelpiedrafita.com"
-        },
-        {
-            "name": "Lars Klopstra",
-            "email": "lars@flowframe.nl"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/enlightn/enlightn/issues",
-        "docs": "https://www.laravel-enlightn.com/docs/"
-    },
     "require": {
         "php": "^8.0",
         "ext-json": "*",
