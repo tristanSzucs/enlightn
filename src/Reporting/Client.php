@@ -14,7 +14,7 @@ class Client
     public function __construct(
         $username,
         $apiToken,
-        string $baseUrl = 'https://www.laravel-enlightn.com/api/',
+        string $baseUrl = env('SASTREPORT_URL'),
         float $timeout = 10.0
     ) {
         $this->client = new GuzzleClient([
