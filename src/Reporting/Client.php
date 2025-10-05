@@ -14,9 +14,10 @@ class Client
     public function __construct(
         $username,
         $apiToken,
-        string $baseUrl = env('SASTREPORT_URL'),
+        string $baseUrl = '',
         float $timeout = 10.0
     ) {
+        $baseUrl = env('SASTREPORT_URL');
         $this->client = new GuzzleClient([
             'base_uri' => $baseUrl,
             'auth' => [$username, $apiToken],
